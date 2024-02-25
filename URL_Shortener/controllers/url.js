@@ -4,7 +4,7 @@ const URL = require("../db/urls");
 async function generateShortURL(req,res){
    const body = req.body;
    if(!body.url) 
-   {
+   { 
     return res.status(400).json({error: "URL required"})
    } 
    const shortID = shortid();
@@ -14,5 +14,14 @@ async function generateShortURL(req,res){
      visitHistory:[],
    });
    return res.json({id: shortID});
-} 
-module.exports = {generateShortURL}
+}  
+async function  getAnalytics(req,res){
+  const shortId = req.params.shortId;
+  const result = await URL.findOne({shortId});
+  console.log(result);
+  return res.json({
+    totalClicks: result.visitHistory.length,
+    analytics: result.visitHistory
+  })
+}
+module.exports = {generateShortURL,getAnalytics,}
