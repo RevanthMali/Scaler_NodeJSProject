@@ -16,7 +16,6 @@ This application takes a valid URL and returns a shortened URL, redirecting the 
 
 POST/URL -  Generates a shortened URL and returns a shortened URL in the format <****/random-id> 
 
-GET/:id - Redirects the user to the original URL 
-
+GET/:id - Redirects the user to the original URL
 ## Tips: 
 -use POSTMAN to test the above routes 
