@@ -41,8 +41,6 @@ Note: This project includes only backend  part of the application.
 2.  Install dependencies:
     
     `npm install` 
-    `npm install express`
-    `npm install mongoose`
  
 3. Start the server:
     
