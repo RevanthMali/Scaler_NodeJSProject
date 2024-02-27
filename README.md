@@ -8,7 +8,8 @@ A simple URL shortener service that allows users to Shorten long URLs into Small
  - [Prerequisites](#prerequisites)
  - [Installation](#installation)
 - [Usage](#usage)
-- [Routes](#Routes)
+- [Routes](#routes)
+- [Demo](#Demo)
 
 
 ## Overview
@@ -71,4 +72,26 @@ Note: This project includes only backend  part of the application.
       "url": "https://www.example.com",
     }`
     
-`Tip`: `As it is a Backend Application Test  the API endpoints in POSTMAN for better experience`
+`Tip`: `As it is a Backend Application Test  the API endpoints in POSTMAN for better experience` 
+
+## Demo
+
+Here are some of the demo Screenshots of this Project: 
+
+
+1. Provide the long URL in body:
+ 
+![Screenshot 2024-02-26 223828](https://github.com/RevanthMali/Scaler_NodeJSProject/assets/118295254/45ea9a26-d391-4f59-ac39-e5088b3ce98f)
+
+2. Paste the Generated ShortId in GET request and to check the working of this URL paste it in your Browser
+
+![Screenshot 2024-02-26 223955](https://github.com/RevanthMali/Scaler_NodeJSProject/assets/118295254/aae553f7-e4d9-4a6a-b2b2-fa76096fe8a9)
+
+3. To get the analytics of the particular Visited URL add the id at the end of analytics route like this:
+
+![Screenshot 2024-02-26 224021](https://github.com/RevanthMali/Scaler_NodeJSProject/assets/118295254/2bf06694-a190-43b8-8e83-8a1b4b5a7856)
+
+4. Finally these visited URLs and Visit History are stored in MongoDB:
+
+ ![Screenshot 2024-02-26 224211](https://github.com/RevanthMali/Scaler_NodeJSProject/assets/118295254/944a8738-b5b8-46b3-84b0-c9a44762a3b9)
+
