@@ -1,3 +1,6 @@
+Demo video:
+https://github.com/RevanthMali/Scaler_NodeJSProject/assets/118295254/dfbcb298-964d-448e-b21f-eaa17db62bab
+
 A simple URL shortener service that allows users to Shorten long URLs into Smaller Ones.
 
 ## Table of Contents
